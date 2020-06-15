@@ -1,0 +1,224 @@
+@page {
+  margin: 5mm;
+  margin-header: 0mm;
+  margin-footer: 0mm;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+  color: #0087c3;
+  text-decoration: none;
+}
+
+body {
+  position: relative;
+  width: 21cm;
+  height: 29.7cm;
+  margin: 0 auto;
+  color: #555555;
+  background: #ffffff;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-family: SourceSansPro;
+}
+
+header {
+  padding: 10px 0;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #aaaaaa;
+}
+
+.logo {
+  float: left;
+  margin-top: 8px;
+}
+
+.logo img {
+  height: 70px;
+}
+
+#company {
+  float: right;
+  text-align: right;
+}
+
+#details {
+  margin-bottom: 10px;
+}
+
+#client {
+  padding-left: 6px;
+  border-left: 6px solid #0087c3;
+  float: left;
+}
+
+#client .to {
+  color: #777777;
+}
+
+h2.name {
+  font-size: 1.1em;
+  font-weight: normal;
+  margin: 0;
+}
+
+#invoice {
+  float: right;
+  text-align: right;
+}
+
+#invoice h1 {
+  color: #0087c3;
+  font-size: 1.5em;
+  line-height: 1em;
+  font-weight: normal;
+  margin: 0 0 0px 0;
+}
+
+#invoice .date {
+  font-size: 0.8em;
+  color: #777777;
+}
+
+main table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 10px;
+}
+
+main table th,
+main table td {
+  padding: 1px;
+  background: #eeeeee;
+  text-align: right;
+  border-bottom: 1px solid #ffffff;
+}
+
+main table th {
+  white-space: nowrap;
+  font-weight: normal;
+}
+
+main table td {
+  text-align: right;
+}
+
+main table td h3 {
+  color: #57b223;
+  font-size: 1.2em;
+  font-weight: normal;
+  margin: 0 0 0.2em 0;
+}
+
+main table .no {
+  color: #ffffff;
+  font-size: 1em;
+  background: #57b223;
+  text-align: center;
+}
+
+main table .td {
+  text-align: left;
+  padding-left: 15px;
+}
+
+main table .desc {
+  text-align: left;
+}
+
+main table .data {
+  text-align: center;
+}
+
+main table .unit {
+  background: #dddddd;
+}
+
+main table .qty {
+  text-align: center;
+}
+
+main table .total {
+  background: #57b223;
+  color: #ffffff;
+}
+
+main table td.unit,
+main table td.qty,
+main table td.total {
+  font-size: 1em;
+}
+
+main table tbody tr:last-child td {
+  border: none;
+}
+
+main table tfoot td {
+  padding-top: 5px;
+  background: #ffffff;
+  border-bottom: none;
+  font-size: 1em;
+  white-space: nowrap;
+  text-align: right;
+}
+
+.border-td-top {
+  border-top: 1px solid #aaaaaa;
+}
+
+main table tfoot .ass {
+    color: #777777;
+    width: 200px;
+    border-top: 1px solid #aaaaaa;
+    text-align: right;
+}
+
+.assinatura {
+  text-align: center;
+}
+
+.notices {
+  padding-left: 6px;
+  margin-bottom: 6px;
+  border-left: 6px solid #0087c3;
+}
+
+.notices .notice {
+  font-size: 1em;
+}
+
+.notices .aviso {
+  font-size: 0.6em;
+}
+
+footer table {
+  width: 60%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 10px;
+}
+
+footer table th,
+footer table td {
+  padding: 1px;
+  text-align: center;
+}
+
+footer table th {
+  white-space: nowrap;
+  font-weight: normal;
+}
+
+footer table td {
+  border-top: 1px solid #aaaaaa;
+  text-align: center;
+}
+  
+  
